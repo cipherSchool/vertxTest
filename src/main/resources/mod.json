@@ -1,0 +1,5 @@
+
+{
+  "main": "com.example.demo.common.MainVerticle",
+  "auto-redeploy": true
+}

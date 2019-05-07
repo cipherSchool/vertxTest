@@ -1,0 +1,46 @@
+
+
+
+#site { height:97%; left: 30px; right: 30px; top: 10px; background:#fff; position: absolute;
+        border-radius: 10px;  border: solid 3px #fff; box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1); }
+#header { height: 50px; border: 1px solid blue; margin: 5px; clear: both; }
+#topNav { height: 50px; border: 1px solid green; margin: 5px; clear: both; }
+#section { width:100%; border: 1px solid red; float:left; margin-top:5px; margin-right:5px; }
+#left { width: 200px; border: 1px solid green; float: left; margin: 5px; }
+#right { width: 200px; border: 1px solid green; float: right; margin: 5px; }
+#main { border: 1px solid red; margin: 5px; float: left; }
+#footer { bottom:20px; height: 100px; border: 1px solid blue; clear: both; position: absolute; }
+
+body { margin: 0 auto; background:#D8D8D8; overflow-y: scroll; }
+* { font-size: 10px; font-family: verdana,arial,sans-serif; color:#606060; }
+
+a                 { color:blue; }
+a span            { color:blue; }
+a.blkLink         { color:#778899; }
+a.blkLink:hover   { color:#666666; text-decoration:underline; }
+a.hoverLink       { color:#778899; text-decoration:none; }
+a.hoverLink:hover { color:#666666; text-decoration:underline; }
+
+form { margin:0; padding:0; }
+input            { height:15px; padding:0; margin:0; resize:none; background:#ccc; }
+input[type=text] { height:15px; }
+input[type=password] { height:15px; }
+textarea { resize:vertical; spellcheck:false; }
+
+.tbList { empty-cells:show; padding:0; border-spacing:0; border-bottom:solid #e0e0e0 1px; border-left:solid #e0e0e0 1px; }
+.tbList thead { background:#ccc; } /*overflow:scroll; overflow-x:hidden; resize:vertical;*/
+.tbList tbody { background:#eee; } /*overflow:scroll; overflow-x:hidden; resize:vertical;*/
+
+.dropNav { list-style: none; padding: 0; margin: 0; border-top: solid 3px #fff; border-bottom: solid 3px #fff; }
+.dropNav li { float: left; }
+.dropNav li:hover { background: dodgerblue; }
+.dropNav li:first-child { -webkit-border-radius: 5px 5px 0 0; border-radius: 5px 0 0 5px; }
+.dropNav li a { display: block; padding: 0 20px; text-decoration: none; line-height: 40px; }
+.dropNav ul { display: none; position: absolute; list-style: none; margin-left: -3px; padding: 0; overflow: hidden; }
+.dropNav ul li { float: none; }
+.dropNav li:hover > ul { display: block; background: dodgerblue; border: solid 3px #fff; border-top: 0; -webkit-border-radius: 0 0 8px 8px;
+        border-radius: 0 0 8px 8px; -webkit-box-shadow:  0px 3px 3px 0px rgba(0, 0, 0, 0.25); box-shadow:  0px 3px 3px 0px rgba(0, 0, 0, 0.25); }
+.dropNav li:hover > ul li:hover { -webkit-border-radius: 0 0 5px 5px; border-radius: 0 0 5px 5px; }
+.dropNav li li a:hover { background: white; }
+.dropNav ul li:last-child a,
+.dropNav ul li:last-child a:hover { -webkit-border-radius: 0 0 5px 5px; border-radius: 0 0 5px 5px; }
